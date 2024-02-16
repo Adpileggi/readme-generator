@@ -53,10 +53,12 @@ inquirer
         },
     ])
     // TODO: Create a function to write README file
-    // .then((data)) => {
-
-    // } 
-    // writeToFile(fileName, data) {}
+    .then((data) => {
+        console.log(data)
+        // fs.writeFile('ReadMeInfo', JSON.stringify(data, null, '/t'), (err) =>
+        // err ? console.log(err) : console.log('Success')
+        // )
+    }) 
 
 // TODO: Create a function to initialize app
 function init() {}
