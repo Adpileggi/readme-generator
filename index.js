@@ -56,7 +56,7 @@ inquirer
     // TODO: Create a function to write README file
     .then((data) => {
         console.log(data)
-        console.log(data.liscense[0])
+        console.log(data.liscense)
         fs.writeFile('ReadMe.md', markdown.generateMarkdown(data), (err) =>
             err ? console.log(err) : console.log('Success')
         )

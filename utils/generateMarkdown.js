@@ -70,37 +70,31 @@ const badges = [
 // If there is no license, return an empty string
 
 function renderLicenseBadge(data) {
-  for (const badge of badges) 
-  if (data.liscense[0] === badge.name) {
-    return `[![License]${badge.img}]`;
-  }
-  else {
-    return '';
-  }
+  for (const badge of badges) {
+    if (data.liscense[0] == badge.name) {
+      return `[![License](${badge.img})]`;
+    }
+  } return ''
 } 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
-  for (const badge of badges) 
-  if (data.liscense[0] === badge.name) {
-    return `(${badge.url})`;
-  }
-  else {
-    return '';
-  }
+  for (const badge of badges) {
+    if (data.liscense[0] == badge.name) {
+      return `(${badge.url})`;
+    }
+  } return ''
 } 
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(liscense) {
-  for (const badge of badges)
-  if (liscense === badge.name) {
-    return `This project useds the [${badge.name}](${badge.url}) liscense`;
-  }
-  else {
-    return '';
-  }
+function renderLicenseSection(data) {
+  for (const badge of badges) {
+    if (data.liscense[0] == badge.name) {
+      return `This project uses the [${badge.name}](${badge.url}) liscense`;
+    }
+  } return ''
 }
 
 // TODO: Create a function to generate markdown for README
@@ -137,7 +131,7 @@ function generateMarkdown(data) {
 
   ## Liscense
 
-  ${data.liscense}
+  ${renderLicenseSection(data)}
 
   ## Questions
   Email: ${data.email}
