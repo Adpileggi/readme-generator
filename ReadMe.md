@@ -1,8 +1,8 @@
-# AAA [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+# A project [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Descripton
 
-  
+  homework
 
   ## Table Of Contents
    - [Installation](#installation)
@@ -14,24 +14,24 @@
 
   ## Installation
 
-  vvsdfa
+  type node.js
 
   ## Usage
 
-  sdafwe
+  to get a job
 
   ## Testing
 
-  dsfa
+  use it
 
   ## Contributions
 
-  asdfw
+  tutor
 
   ## Liscense
 
-  This project uses the [BSD-2](https://opensource.org/licenses/BSD-2-Clause) liscense
+  This project uses the [MIT](https://opensource.org/licenses/MIT) liscense
 
   ## Questions
-  Email: fgae
-  GitHub: asdfwe
+  Email: [adpileggi@gmail.com](mailto:adpileggi@gmail.com)
+  GitHub Profile : [adpileggi](https://github.com/adpileggi)
