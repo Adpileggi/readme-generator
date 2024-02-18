@@ -69,9 +69,9 @@ const badges = [
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
-function renderLicenseBadge(liscense) {
+function renderLicenseBadge(data) {
   for (const badge of badges) 
-  if (liscense === badge.name) {
+  if (data.liscense[0] === badge.name) {
     return `[![License]${badge.img}]`;
   }
   else {
@@ -81,9 +81,9 @@ function renderLicenseBadge(liscense) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(liscense) {
+function renderLicenseLink(data) {
   for (const badge of badges) 
-  if (liscense === badge.name) {
+  if (data.liscense[0] === badge.name) {
     return `(${badge.url})`;
   }
   else {
@@ -105,7 +105,7 @@ function renderLicenseSection(liscense) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title} ${renderLicenseBadge()}${renderLicenseLink()}
+  return `# ${data.title} ${renderLicenseBadge(data)}${renderLicenseLink(data)}
 
   ## Descripton
 
