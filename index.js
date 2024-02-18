@@ -30,7 +30,7 @@ inquirer
             type: 'checkbox',
             name: 'liscense',
             message: 'Please choose the liscense for the project',
-            choices: ['None', 'Apache', 'GNU', 'MIT', 'BSD-2', 'BSD-3', 'Boost', 'Creative Commons Zero', 'Eclipse', 'GNU Affero', 'GNU', 'Mozilla', 'The Unlicense']
+            choices: ['None', 'Apache', 'GNU GPL v3', 'MIT', 'BSD-2', 'BSD-3', 'Boost', 'Creative Commons Zero', 'Eclipse', 'GNU AGPL v3', 'GNU GPL v2', 'Mozilla', 'The Unlicense']
         },
         {
             type: 'input',
@@ -56,8 +56,9 @@ inquirer
     // TODO: Create a function to write README file
     .then((data) => {
         console.log(data)
+        console.log(data.liscense)
         fs.writeFile('ReadMe.md', markdown.generateMarkdown(data), (err) =>
-        err ? console.log(err) : console.log('Success')
+            err ? console.log(err) : console.log('Success')
         )
     }) 
 
