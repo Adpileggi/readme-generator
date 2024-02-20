@@ -20,6 +20,8 @@
 
   When a user types "node index.js" into the command line they will see a series of questions. Once all the questions are answered, a generated-README.md file will be created. The generated readMe will create and write each section of the readme with the information provied by the user.
 
+  [Walkthrough Video](https://drive.google.com/file/d/1WfoA_yjcti1atLDH7-kCfez_KJrBObMD/view?usp=sharing)
+
   ## Testing
 
   N/A
