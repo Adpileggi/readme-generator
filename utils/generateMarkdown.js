@@ -1,9 +1,5 @@
+// Array with badge information
 const badges = [
-  // {
-  //   name: 'None',
-  //   img: '',
-  //   url: '',
-  // },
   {
     name: 'Apache',
     img: 'https://img.shields.io/badge/License-Apache_2.0-blue.svg',
