@@ -57,7 +57,7 @@ inquirer
     .then((data) => {
         console.log(data)
         console.log(data.liscense)
-        fs.writeFile('ReadMe.md', markdown.generateMarkdown(data), (err) =>
+        fs.writeFile('generated-README.md', markdown.generateMarkdown(data), (err) =>
             err ? console.log(err) : console.log('Success')
         )
     }) 
