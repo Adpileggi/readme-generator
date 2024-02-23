@@ -1,8 +1,8 @@
-# Sample Project [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+# project [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   ## Descripton
 
-  Sample Description
+  describe
 
   ## Table Of Contents
    - [Installation](#installation)
@@ -14,24 +14,24 @@
 
   ## Installation
 
-  Sample Installation
+  install
 
   ## Usage
 
-  Sample Usage
+  intesd
 
   ## Testing
 
-  Sample Testing
+  test
 
   ## Contributions
 
-  Sample Contributions
+  contri
 
   ## Liscense
 
-  This project uses the [GNU GPL v3](https://opensource.org/licenses/EPL-1.0) liscense
+  This project uses the [BSD-3](https://opensource.org/licenses/BSD-3-Clause) liscense
 
   ## Questions
   Email: [email@email.com](mailto:email@email.com)
-  GitHub Profile : [github-username](https://github.com/github-username)
+  GitHub Profile : [username](https://github.com/username)
